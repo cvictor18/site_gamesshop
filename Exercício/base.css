@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lekton', sans-serif;
+}
+
+.cabecalho,
+#sobre_mim,
+#experiencias,
+#qualificacoes,
+#contatos_informacoes,
+footer {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: normal;
+    font-size: 33px;
+    margin-left: 5px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: 30px;
+    align-items: baseline;
+}
+
+.cabecalho li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: rgba(255, 68, 0, 0.863);
+    padding: 5px;
+}
+
+.cabecalho a:hover {
+    color: #fff;
+    background-color: rgba(255, 68, 0, 0.863);
+}
+
+#sobre_mim {
+    background-color: rgb(253, 229, 213);
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#sobre_mim h2 {
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.article_sobre_mim article p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 640px;
+    background-color: rgba(255, 68, 0, 0.712);
+    color: #fff;
+    transition: all linear 1s;
+    padding: 10px
+}
+
+.article_sobre_mim img {
+    width: 55px;
+}
+
+.article_sobre_mim article {
+    display: flex;
+    align-items: flex-start;
+}
+
+.article_sobre_mim audio {
+    width: 250px;
+    margin-top: 30px;
+}
+
+.musica_hobies {
+    display: inline-flex;
+}
+
+.musica h3 {
+    margin: 0 105px;
+    font-size: 20px;
+}
+
+.hobies h3 {
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.hobies img {
+    display: inline-flex;
+    width: 110px;
+}
+
+#link_experiencias a {
+    text-decoration: none;
+    color: rgba(0, 255, 128, 0.863);
+    padding: 5px;
+}
+
+#link_experiencias a:hover {
+    color: #fff;
+    background-color: rgba(0, 255, 128, 0.863);
+}
+
+#experiencias {
+    background-color: rgb(213, 253, 225);
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#experiencias h2 {
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.article_experiencias article p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 640px;
+    background-color: rgba(0, 255, 128, 0.863);
+    color: #ffffff;
+    font-weight: 550;
+    transition: all linear 1s;
+    padding: 10px
+}
+
+.article_experiencias article {
+    display: flex;
+    align-items: flex-start;
+}
+
+.o_acustico iframe {
+    width: 500px;
+    height: 145px;
+    margin-left: 40px;
+}
+
+.o_acustico h3 {
+    margin-left: 220px;
+}
+
+#link_qualificacoes a {
+    text-decoration: none;
+    color: rgba(0, 102, 255, 0.863);
+    padding: 5px;
+}
+
+#link_qualificacoes a:hover {
+    color: #fff;
+    background-color: rgba(0, 102, 255, 0.863);
+}
+
+#qualificacoes {
+    background-color: rgb(213, 240, 253);
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#qualificacoes h2 {
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.article_qualificacoes article p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 640px;
+    background-color: rgba(0, 174, 255, 0.863);
+    color: #fff;
+    transition: all linear 1s;
+    padding: 10px
+}
+
+.article_qualificacoes article {
+    display: flex;
+    align-items: flex-start;
+}
+
+.escola_ingles {
+    display: inline-flex;
+}
+
+.escola img {
+    width: 270px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.escola h3 {
+    margin-left: 120px;
+}
+
+.ingles img {
+    width: 270px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.ingles h3 {
+    margin-left: 120px;
+}
+
+#contatos_informacoes {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#contatos_informacoes img {
+    width: 50px;
+    margin-top: 15px;
+}
+
+#contatos_informacoes a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+}
